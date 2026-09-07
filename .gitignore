@@ -1,0 +1,38 @@
+# deps
+node_modules
+
+# build
+dist
+dist-ssr
+
+# vite
+*.local
+
+# editor
+.vscode
+.idea
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# env
+.env
+.env.local
+.env.*.local
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# test
+coverage
+
+# os
+*.log
+# ts build info
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+.omo/
