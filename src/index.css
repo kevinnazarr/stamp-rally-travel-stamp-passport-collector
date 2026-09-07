@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* { font-family: Inter, system-ui, sans-serif; }
+.font-display { font-family: "DM Serif Display", serif; }
+@keyframes stamp-in { 0% { transform: scale(1.8) rotate(var(--tilt,0deg)); opacity:0 } 60% { transform: scale(0.95) rotate(var(--tilt,0deg)); opacity:1 } 100% { transform: scale(1) rotate(var(--tilt,0deg)); opacity:1 } }
+.animate-stamp-in { animation: stamp-in 0.45s cubic-bezier(0.34,1.56,0.64,1) forwards; }
